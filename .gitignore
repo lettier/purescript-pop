@@ -1,0 +1,12 @@
+/bower_components/
+/build/
+/node_modules/
+/.pulp-cache/
+/output/
+/generated-docs/
+/old_build/
+/.psc-package/
+/.psc*
+/.purs*
+/.psa*
+*npm-debug.log*

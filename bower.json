@@ -1,0 +1,26 @@
+{
+  "name": "purescript-pop",
+  "author": "David Lettier",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output"
+  ],
+  "dependencies": {
+    "purescript-prelude": "^4.1.0",
+    "purescript-console": "^4.1.0",
+    "purescript-effect": "^2.0.0",
+    "purescript-behaviors": "^7.0.0",
+    "purescript-jquery": "^5.0.0",
+    "purescript-js-timers": "^4.0.1",
+    "purescript-generics-rep": "^6.1.0",
+    "purescript-foreign": "^5.0.0",
+    "purescript-refs": "^4.1.0",
+    "purescript-record": "^1.0.0"
+  },
+  "devDependencies": {
+    "purescript-psci-support": "^4.0.0"
+  }
+}

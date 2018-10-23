@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg8"
+   version="1.1"
+   viewBox="0 0 720.00004 913.59742"
+   height="913.59741"
+   width="720">
+  <defs
+     id="defs2">
+    <path
+       id="path4801"
+       d="m 58.264756,123.54207 c 43.564484,20.57782 47.841694,-11.9361 88.198944,9.35444"
+       style="display:inline;opacity:0;vector-effect:none;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.32291663;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:1107.35998535;stroke-opacity:1" />
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>(C) 2018 David Lettier</dc:title>
+          </cc:Agent>
+        </dc:creator>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer7">
+    <path
+       id="path906"
+       d="m 470.63627,181.72778 c 0.65246,-17.95561 23.48278,-32.35426 40.43391,-60.78331 10.43961,-12.02124 20.68813,-27.844084 30.13285,-40.553234 l 32.17874,-0.221256 c -10.00615,13.348224 -27.92938,38.02679 -37.69862,51.66035 -13.63879,15.89917 -15.44337,39.7883 -35.9549,48.15738 -11.13415,5.10309 -18.03944,7.68045 -29.09198,1.74007 z"
+       style="display:inline;opacity:1;vector-effect:none;fill:#e3d4ff;fill-opacity:0.40707966;fill-rule:evenodd;stroke:none;stroke-width:6.60267735;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:1107.35998535;stroke-opacity:1"
+       transform="translate(-204.43214,-27.899296)" />
+    <path
+       style="display:inline;opacity:1;vector-effect:none;fill:#e3d4ff;fill-opacity:0.40707966;fill-rule:evenodd;stroke:none;stroke-width:6.60267735;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:1107.35998535;stroke-opacity:1"
+       d="m 417.64979,180.24218 c 14.35302,-30.0055 17.04516,-30.86866 33.9963,-59.29771 10.4396,-12.02124 21.62189,-28.777847 31.06661,-41.486997 l 32.64563,0.245633 c -9.53928,17.55014 -29.33003,38.493664 -39.09927,52.127224 -13.6388,15.89917 -11.8119,40.7787 -32.32344,49.14778 -11.13414,5.10309 -15.23329,5.20444 -26.28583,-0.73593 z"
+       id="path928"
+       transform="translate(-204.43214,-27.899296)" />
+    <path
+       d="m 299.48531,168.90151 c 11.68541,17.82341 393.02912,8.2493 406.06735,-1.2113 8.19816,-5.94864 5.15748,-68.771756 -5.78189,-77.927015 -12.51532,-10.474157 -391.00706,-12.196266 -399.39594,0 -9.62759,13.997145 -13.39588,60.062765 -0.88952,79.138315 z m -8.38107,6.06869 c 12.26654,20.6094 412.5746,9.53877 426.26123,-1.40063 8.60585,-6.87846 5.41397,-79.521488 -6.06943,-90.107812 -13.13773,-12.111396 -410.45195,-14.10267 -419.25804,0 -10.10637,16.185051 -14.06205,69.451212 -0.93376,91.508442 z"
+       style="display:inline;opacity:1;vector-effect:none;fill:#320087;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:5.99299622;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:1107.35998535;stroke-opacity:1"
+       id="path889"
+       transform="translate(-204.43214,-27.899296)" />
+  </g>
+</svg>

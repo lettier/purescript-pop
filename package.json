@@ -1,0 +1,11 @@
+{
+  "name": "purescript-pop",
+  "author": "David Lettier",
+  "private": true,
+  "scripts": {
+    "build": "mkdir -p build/images && mv build old_build && mkdir -p build/images && cp -R web-images/. build/images/ && mv build/images/favicon.ico build/ && cp src/index.css build/ && cp src/index.html build/ && npm install -g uglify-js && pulp browserify -O -t build/index.js && uglifyjs build/index.js --compress --beautify ascii_only=false -o build/index.js",
+    "runserver": "cd build && nohup python -m http.server &> /dev/null &",
+    "open": "python -mwebbrowser http://localhost:8000",
+    "killserver": "pkill -9 -f http.server"
+  }
+}

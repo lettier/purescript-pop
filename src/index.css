@@ -1,0 +1,232 @@
+/*
+  PureScript Pop
+  (C) 2018 David Lettier
+  lettier.com
+*/
+
+html,
+body {
+  background-color: #f27f00;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  line-height: 34px;
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+  animation-duration: 2s;
+}
+
+* {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.floater {
+  position: absolute;
+  background-color: rgba(20, 20, 20, 0.0);
+}
+
+.hotSpot {
+  z-index: 2;
+  cursor: pointer;
+}
+
+.coin {
+  width:  50px;
+  height: 50px;
+  z-index: 3;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+p {
+  font-size: 20px;
+}
+
+p > img {
+  vertical-align: middle;
+  width: 20px;
+  height: auto;
+}
+
+#app {
+  width: 100%;
+  height: 100%;
+}
+
+#info {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 20%;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  background: rgba(108, 92, 231,1.0);
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  border-right: 5px solid rgb(87, 69, 227);
+  z-index: 4;
+  box-shadow: 10px 0px 0px 0px rgba(202, 104, 0, 0.5);
+  animation-duration: 3s;
+  -webkit-animation-name: moveRight;
+  animation-name: moveRight;
+}
+
+#logoContainer {
+  text-align: center
+}
+
+#logo {
+  width: 50%;
+  height: auto;
+}
+
+#popMachineContainer {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  position: relative;
+  width: 80%;
+  height: 100%;
+  left: 20%;
+  animation-duration: 3s;
+  -webkit-animation-name: moveUp;
+  animation-name: moveUp;
+}
+#popMachine {
+  width: 720px;
+  position: relative;
+  height: 100%;
+  margin-top: 100px;
+}
+#popMachine > img {
+  position: absolute;
+}
+
+#coinSlot {
+  width: 25px;
+  height: 87px;
+  left: 450px;
+  top: 230px;
+}
+
+#popSlot {
+  width: 100px;
+  height: 133px;
+  left: 116px;
+  top: 650px;
+}
+
+#statusDisplay {
+  width: 370px;
+  height: 51px;
+  line-height: 51px;
+  left: 95px;
+  top: 65px;
+  font-size: 32px;
+  color: lightgreen;
+  font-family: sans-serif;
+  padding: 10px;
+  overflow: hidden;
+}
+
+#coinOne {
+  left: 728px;
+  top: 165px;
+}
+#coinTwo {
+  left: 728px;
+  top: 220px;
+}
+#coinThree {
+  left: 728px;
+  top: 277px;
+}
+
+#functionalPop {
+  left: 135px;
+  top: 240px;
+}
+#reactivePop {
+  left: 135px;
+  top: 335px;
+}
+#programmingPop {
+  left: 135px;
+  top: 430px;
+}
+
+#popStop1 {
+  width: 100px;
+  height: 1px;
+  left: 135px;
+  top: 335px;
+}
+#popStop2 {
+  width: 100px;
+  height: 1px;
+  left: 135px;
+  top: 430px;
+}
+#popStop3 {
+  width: 100px;
+  height: 1px;
+  left: 135px;
+  top: 670px;
+}
+
+@-webit-keyframes fadeIn {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes fadeIn {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webit-keyframes moveUp {
+  0%   { transform: translateY(100%); }
+  100% { transform: translateY(0%); }
+}
+
+@keyframes moveUp {
+  0%   { transform: translateY(100%); }
+  100% { transform: translateY(0%); }
+}
+
+@-webit-keyframes moveRight {
+  0%   { transform: translateX(0100%); }
+  100% { transform: translateX(0%); }
+}
+
+@keyframes moveRight {
+  0%   { transform: translateX(-100%); }
+  100% { transform: translateX(0%); }
+}
+
+@media only screen and (max-width: 1000px) {
+  h1 {
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  p {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
